@@ -1,0 +1,54 @@
+h1 {
+  color: red;
+}
+
+#navbar_top {
+  padding: 10px 0;
+  background: rgb(228, 227, 227);
+}
+.navbar_top {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 20px;
+}
+.navbar_top a {
+  font-size: 13px;
+  color: #000;
+  font-weight: bold;
+}
+
+/*! TEST */
+#navbar_test {
+  padding: 5px 0;
+}
+.navbar_test {
+  display: flex;
+  justify-content: space-between;
+}
+.navbar_test_nav {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.navbar_test_icons {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+/* ! SORT */
+#navbar_sort {
+  padding: 23px 0;
+}
+.navbar_sort {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar_sort_box {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
