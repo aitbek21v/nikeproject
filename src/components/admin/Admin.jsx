@@ -13,7 +13,7 @@ const Admin = () => {
   function handleInput(e) {
     setProduct({ ...product, [e.target.name]: e.target.value });
   }
-  console.log(product);
+  // console.log(product);
   return (
     <Box
       sx={{

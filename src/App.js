@@ -1,4 +1,5 @@
 import "./App.css";
+import NavbarCarusel from "./components/Navbar/NavbarCarusel";
 import NavbarSort from "./components/Navbar/NavbarSort";
 import NavbarTest from "./components/Navbar/NavbarTest";
 import NavbarTop from "./components/Navbar/NavbarTop";
@@ -10,6 +11,7 @@ function App() {
       <NavbarTop />
       <NavbarTest />
       <NavbarSort />
+      <NavbarCarusel />
       <Admin />
     </div>
   );
